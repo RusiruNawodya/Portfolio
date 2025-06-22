@@ -1,37 +1,42 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import NavBar from "../component/NavBar";
+import Project1 from "../images/Agri.jpg";
+import Project2 from "../images/vehicle.jpg";
+import Project3 from "../images/todo.jpg";
+import Project4 from "../images/fashion.jpg";
+import Project5 from "../images/cook.png";
 
 const projects = [
   {
-    name: "Portfolio Website",
-    image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=600&q=80",
-    description: "A personal portfolio website to showcase my skills, projects, and experience. Built with React and Tailwind CSS.",
-    link: "#",
+    name: "Agricultural Management System",
+    image: Project1,
+    description: "A modern agricultural management platform that supports smart farming, land development, and marketplace integration. Designed to boost productivity and sustainability, it’s built using React and Tailwind CSS.",
+    link: "https://github.com/RusiruNawodya/agriSystem_ITMP.git",
   },
   {
-    name: "E-commerce Platform",
-    image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=600&q=80",
-    description: "A full-featured e-commerce platform with product listings, cart, and payment integration. Built with MERN stack.",
-    link: "#",
+    name: "Vehicle Service Management System",
+    image: Project2,
+    description: "A complete vehicle service management platform for garages and service centers, featuring booking, payments, inventory, employee, and modification management. Built with React and Tailwind CSS.",
+    link: "https://github.com/RusiruNawodya/VehicleService_System.git",
   },
   {
-    name: "Chat Application",
-    image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80",
-    description: "A real-time chat application with user authentication and group chat features. Built with Node.js, Socket.io, and React.",
-    link: "#",
+    name: "TO-DO Mobile Application",
+    image: Project3,
+    description: "SimpleTasks is a lightweight and efficient TODO app built with Kotlin, helping you organize, prioritize, and track daily tasks with ease.",
+    link: "https://github.com/RusiruNawodya/TODO_NoteApp.git",
   },
   {
-    name: "Task Manager",
-    image: "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80",
-    description: "A productivity app to manage daily tasks, deadlines, and priorities. Built with React and Express.js.",
-    link: "#",
+    name: "Online Fashion Store",
+    image: Project4,
+    description: "A responsive e-commerce fashion store website where users can browse and purchase clothing and accessories. Built with HTML, CSS, and JavaScript for an interactive shopping experience.",
+    link: "https://github.com/RusiruNawodya/FashionStore.git",
   },
   {
-    name: "Blog Platform",
-    image: "https://images.unsplash.com/photo-1465101178521-c1a9136a3b99?auto=format&fit=crop&w=600&q=80",
-    description: "A blogging platform with markdown support, comments, and user profiles. Built with MongoDB, Express, and React.",
-    link: "#",
+    name: "Food And Recipies Share Platform",
+    image: Project5,
+    description: "A social blogging platform for food lovers to share and explore recipes, with features like Markdown posts, comments, likes, shares, and user profiles. Built with Spring Boot and React.",
+    link: "https://github.com/RusiruNawodya/cookbook_app.git",
   },
 ];
 
