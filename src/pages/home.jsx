@@ -33,6 +33,25 @@ const Home = () => {
               Web Development Enthusiast
             </span>
           </h2>
+          <div className="flex items-center justify-center gap-4">
+            <a
+              href="https://drive.google.com/uc?export=download&id=1NqWRTIEnYloOoNEIkLgTFMlJYZZZfMQA"
+              download="Rusiru_Nawodya_CV.pdf"
+              className="px-6 py-3 rounded-full bg-gradient-to-r from-indigo-500 via-pink-500 to-purple-500 text-white font-semibold shadow-lg hover:opacity-90 transition-opacity duration-200 border border-white/10"
+              aria-label="Download my CV as PDF"
+            >
+              Download CV
+            </a>
+            <a
+              href="https://drive.google.com/file/d/1NqWRTIEnYloOoNEIkLgTFMlJYZZZfMQA/view?usp=drive_link"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-6 py-3 rounded-full bg-white/10 hover:bg-white/20 text-white font-semibold shadow-lg transition-colors duration-200 border border-white/20"
+              aria-label="Open my CV in a new tab"
+            >
+              View CV
+            </a>
+          </div>
         </div>
       </section>
       {/* Glassmorphism utility and shimmer animation */}

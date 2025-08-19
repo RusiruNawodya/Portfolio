@@ -9,6 +9,7 @@ const skills = [
   { name: "JavaScript", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
   { name: "Node.js", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" },
   { name: "Kotlin", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" },
+  { name: "Spring Boot", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" },
   { name: "Express.js", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" },
   { name: "MongoDB", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" },
   { name: "Postman", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" },
@@ -23,6 +24,7 @@ const gradientColors = [
   'from-yellow-400 to-yellow-600', // JS
   'from-green-400 to-green-700', // Node
   'from-fuchsia-400 to-pink-500', // Kotlin
+  'from-green-500 to-emerald-700', // Spring Boot
   'from-gray-400 to-gray-700', // Express
   'from-green-600 to-green-900', // MongoDB
   'from-orange-400 to-orange-600', // Postman
